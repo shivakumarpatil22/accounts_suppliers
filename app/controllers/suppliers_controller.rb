@@ -41,8 +41,8 @@ class SuppliersController < ApplicationController
   end
 
   def destroy
-    @supplier.delete
-    redirect_to supplier_path
+    @supplier.destroy
+    redirect_to suppliers_path
   end
 
   private

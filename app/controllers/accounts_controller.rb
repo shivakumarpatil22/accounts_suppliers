@@ -41,8 +41,8 @@ class AccountsController < ApplicationController
   end
 
   def destroy
-    @account.delete
-    redirect_to account_path
+    @account.destroy
+    redirect_to accounts_path
   end
 
   private

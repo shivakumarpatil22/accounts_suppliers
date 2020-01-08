@@ -1,7 +1,7 @@
 <div class="container">
   <h2>Suppliers</h2>
-  <%= link_to "New", new_account_path %><br>
-  <%= will_paginate @account, renderer: WillPaginate::ActionView::BootstrapLinkRenderer %>
+  <%= link_to "New", new_supplier_path %><br>
+  <%= will_paginate @suppliers, renderer: WillPaginate::ActionView::BootstrapLinkRenderer %>
   <table class="table table-bordered">
     <thead>
       <tr>
